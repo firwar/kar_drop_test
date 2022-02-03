@@ -31,5 +31,10 @@
     "ethers": "^5.0.0",
     "hardhat": "^2.0.4",
     "husky": "^4.2.5"
+  },
+  "dependencies": {
+    "@biconomy/mexa": "^2.0.26",
+    "@opengsn/provider": "^2.2.5",
+    "dotenv": "^16.0.0"
   }
 }
