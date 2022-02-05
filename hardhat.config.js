@@ -14,6 +14,14 @@ module.exports = {
       gas: 12500000,
       blockGasLimit: 0x1fffffffffffff,
     },
+    ethereum: {
+      url: process.env.ETHEREUM_RPC_URL,
+      accounts: [process.env.PRIVATE_KEY],
+      saveDeployments: true,
+      allowUnlimitedContractSize: true,
+      gas: 12500000,
+      blockGasLimit: 0x1fffffffffffff,
+    },
     kovan: {
       url: process.env.KOVAN_RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
